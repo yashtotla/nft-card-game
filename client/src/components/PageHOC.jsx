@@ -20,7 +20,7 @@ const PageHOC = (Component, title, description) => () => {
         <p className={styles.footerText}>Made with Avalanche</p>
       </div>
       <div className='flex flex-1'>
-        <img src={heroImg} alt='hero-img' classname='w-full xl:h-full object-cover' />
+        <img src={heroImg} alt='hero-img' className='w-full xl:h-full object-cover' />
       </div>
     </div>
   )
